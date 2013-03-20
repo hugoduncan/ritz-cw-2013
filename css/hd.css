@@ -1,0 +1,209 @@
+.reveal {
+    font-weight: bold;
+}
+
+.reveal p.talk-repo {
+    margin-top: 1em;
+}
+
+.reveal p {
+    font-weight: bold;
+}
+
+.reveal p.center {
+    text-align: center;
+}
+
+.reveal p.align, .reveal p.align img {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.reveal p.and {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.reveal p.small {
+    font-size: 0.5em;
+}
+
+.reveal .center p {
+    text-align: center;
+}
+
+.reveal p {
+    text-align: left;
+}
+
+.reveal p code {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+.reveal h1 {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.reveal h2 {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.reveal h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.reveal section > h3 {
+    margin-top: 0.5em;
+}
+
+.reveal p.maintainer {
+    margin-top: 2em;
+}
+
+.reveal ul {
+    margin-bottom: 2em;
+    list-style: none;
+    font-weight: bold;
+    /* width: 7%; */
+}
+
+.reveal table {
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-border-horizontal-spacing: 0px;
+    border-spacing: 0px;
+}
+
+.reveal table.large-table {
+    font-size: 10pt;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+.reveal table td {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+.reveal td, .reveal th  {
+    border-top: 1px solid #EEE !important;
+}
+
+.reveal table th  {
+    text-shadow: 0 0 transparent;
+    font-weight: bold;
+}
+
+.reveal table.large-table td {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.reveal pre.large {
+    font-size: 0.5em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin: 0px;
+    width: 100%;
+}
+
+.reveal pre.smaller {
+    font-size: 0.8em;
+}
+
+.reveal pre.threads {
+    font-size: 0.40em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin: 0px;
+    width: 100%;
+}
+
+dl.table-display
+{
+        /* float: left; */
+        width: 100%;
+        /* width: 520px; */
+        margin: 1em 0 2em 0;
+        padding: 0;
+        border-bottom: 1px solid #999;
+}
+
+.table-display dt
+{
+        clear: left;
+        float: left;
+        width: 25%;
+        margin: 0;
+        padding: 5px;
+        border-top: 1px solid #999;
+        font-weight: bold;
+}
+
+.table-display dd
+{
+        float: left;
+        /* width: 300px; */
+        width: 70%;
+        margin: 0;
+        padding: 5px;
+        border-top: 1px solid #999;
+}
+
+.reveal section img {
+    border: 0;
+}
+
+.reveal section img {
+  background: rgba(255, 255, 255, 0);
+  border: 0px;
+  box-shadow: 0 0 0;
+}
+
+.reveal pre {
+  box-shadow: 0 0 0;
+  font-size: 0.88em;
+  font-weight: bold;
+  margin: 0.5em auto 1em auto;
+}
+
+pre .clojure .title {
+    font-weight: bold !important;
+}
+
+dl.table-display
+{
+        /* float: left; */
+        width: 100%;
+        /* width: 520px; */
+        margin: 1em 0 2em 0;
+        padding: 0;
+        border-bottom: 1px solid #999;
+}
+
+.table-display dt
+{
+        clear: left;
+        float: left;
+        width: 25%;
+        margin: 0;
+        padding: 5px;
+        border-top: 1px solid #999;
+        font-weight: bold;
+}
+
+.table-display dd
+{
+        float: left;
+        /* width: 300px; */
+        width: 70%;
+        margin: 0;
+        padding: 5px;
+        border-top: 1px solid #999;
+}
