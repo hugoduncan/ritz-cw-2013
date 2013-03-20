@@ -2,7 +2,6 @@
   ;; (:require [])
   )
 
-
 ;;; simple evaluation with exceptions
 
 ;; Default - no popup in repl
@@ -25,13 +24,22 @@
   (let [a 1]
     (/ a 0)))
 
-(comment (f1))
+#_ (f1)
+
 
 (defn f5 []
+  (let [c (range 1000)]
+    (first c)
+    (second c)))
+
+#_ (f5)
+
+
+(defn f6 []
   (let [c (range 10)]
     (/ (first c) 0)))
 
-(comment (f5))
+#_ (f6)
 
 
 ;;; Tracking down errors
